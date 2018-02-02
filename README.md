@@ -3,7 +3,7 @@
 
 A Dungeon Master's companion built with React.js and Electron.
 
-#Proposed Features
+## Proposed Features:
 
 ## Offline:
 SRD implementation
@@ -23,7 +23,7 @@ Armor/Equipment manager
 Gold/treasure/consumables tracker
 Status/HP manager
 
-## Online/LAN
+## Online/LAN:
 Player client
 Battle map stream
 Player token placement
@@ -40,6 +40,6 @@ Shop/merchant interaction
 Encounter runner
 
 
-## Totally Not Happening
+## Totally Not Happening:
 Playlist/soundboard triggers
 Hue lights effect triggers
