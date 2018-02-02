@@ -23,6 +23,9 @@ function createWindow () {
     });
     mainWindow.loadURL(startUrl);
 
+    // Disable default menu bar.
+    mainWindow.setMenu(null);
+
     // Open the DevTools.
     // mainWindow.webContents.openDevTools()
 
