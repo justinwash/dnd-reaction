@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#title-bar.dark {
+    -webkit-app-region: drag;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+    background-color: #2D2D30;
+}
+
+#title.dark {
+    position: fixed;
+    top: 0px;
+    left: 12px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+#title-bar-btns.dark {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 1px;
+    right: 0px;
+}
+
+#title-bar-btns.dark button {
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    color: #F1F1F1;
+    font-size: 16px;
+}
+
+#title-bar-btns.dark button:hover {
+    background-color: #3F3F41;
+}
+
+#content.dark {
+    padding: 12px;
+    color: #CCCCCC;
+}
+
+a {
+    color: white;
+}
