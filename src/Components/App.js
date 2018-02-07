@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import logo from '../Images/logo.svg';
+// import components
+import DnDSideMenu from './DnDSideMenu/DnDSideMenu';
 import TitleBar from './TitleBar';
+// import stylesheets
 import '../Stylesheets/App/App_Light.css';
 import '../Stylesheets/App/App_Dark.css';
 
@@ -25,11 +28,14 @@ class App extends Component {
     render() {
         return (
             <div id="App" className={this.state.theme}>
+
+
                 <TitleBar title={"DnD Reaction"} themeToggle={this.themeSwitcher} selectedTheme={this.state.theme}/>
                 <header id="App-header" className={this.state.theme}>
                     <img src={logo} id="App-logo" className={this.state.theme} alt="logo"/>
                     <h1 id="App-title" className={this.state.theme}>Welcome to DnD Reaction</h1>
                 </header>
+                <DnDSideMenu/>
                 <p id="App-intro" className={this.state.theme}>
                     A Dungeon Master's companion
                     built with<code> React.js </code>
