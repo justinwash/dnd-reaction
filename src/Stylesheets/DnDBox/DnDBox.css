@@ -1,0 +1,9 @@
+#DnDBox {
+    display: flex;
+    height: calc(100vh - 32px);
+}
+
+#DnDMainView.dark {
+    flex-grow: 1;
+    background-color: #303030;
+}

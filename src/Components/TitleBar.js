@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import '../Stylesheets/TitleBar/TitleBar_Dark.css';
 import '../Stylesheets/TitleBar/TitleBar_Light.css';
+
 const remote = window.require('electron').remote;
 
 class TitleBar extends Component {
@@ -26,23 +27,15 @@ class TitleBar extends Component {
         };
 
     render () {
-        var theme;
-        if (this.props.selectedTheme === 'dark') {
-            theme = 'dark';
-        }
-        if (this.props.selectedTheme === 'light') {
-            theme = 'light';
-        }
-
         return (
-                <div id="title-bar" className={theme} >
-                    <div id="title" className={theme} onMouseDown={this.props.themeToggle}>{this.props.title}</div>
+            <div id="title-bar" className={this.props.theme}>
+                <div id="title" className={this.props.theme}>{this.props.title}</div>
 
-                     <div id="title-bar-btns" className={theme}>
+                <div id="title-bar-btns" className={this.props.theme}>
                          <button onMouseDown={this.props.themeToggle}>💡</button>
-                         <button id="min-btn" className={theme}>-</button>
-                         <button id="max-btn" className={theme}>+</button>
-                         <button id="close-btn" className={theme}>x</button>
+                    <button id="min-btn" className={this.props.theme}>-</button>
+                    <button id="max-btn" className={this.props.theme}>+</button>
+                    <button id="close-btn" className={this.props.theme}>x</button>
                     </div>
                 </div>
         );

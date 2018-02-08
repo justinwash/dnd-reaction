@@ -3,6 +3,7 @@
     height: 100vh;
     background-color: #2D2D30;
     color: white;
+    overflow: hidden;
 }
 
 #App-logo.dark {
@@ -39,3 +40,5 @@ body {
     background-color: #2D2D30;
     color: white;
 }
+
+

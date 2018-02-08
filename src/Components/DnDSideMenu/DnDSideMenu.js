@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-import DnDMenuItem from './DnDMenuItem'
+import DnDMenuItem from './DnDMenuItem';
+import '../../Stylesheets/DnDBox/DnDSideMenu_Dark.css';
+import '../../Stylesheets/DnDBox/DnDSideMenu_Light.css';
 
 class DnDSideMenu extends Component {
     render() {
         return (
-            <div id="DnDSideMenu">
+            <div id="DnDSideMenu" className={this.props.theme}>
                 <DnDMenuItem displayText={"Character Sheets"}
                              target={"/charsheets"}
                              children={[]}/>
@@ -17,6 +19,7 @@ class DnDSideMenu extends Component {
                 <DnDMenuItem displayText={"Encounters"}
                              target={"/encounters"}
                              children={[]}/>
+
             </div>
         );
     }

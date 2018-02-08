@@ -1,0 +1,27 @@
+#DnDSideMenu {
+    width: 20%;
+    min-width: 200px;
+}
+
+#DnDSideMenu.light {
+    background-color: #e5e5e5;
+}
+
+#ChildMenuItem {
+    background-color: #28282c;
+}
+
+#ChildMenuItem:hover {
+    background-color: #212124;
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: #1c1c1f;
+}
+
+#ChildMenuItem.hide {
+    display: none;
+}
+
+#ChildMenuItem.show {
+    display: inherit;
+}

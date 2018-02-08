@@ -1,19 +1,25 @@
 import React, {Component} from 'react';
+import SimpleMenuItem from './SimpleMenuItem';
 
 class DnDMenuItem extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            childVisibility: "hide"
+        };
         this.CreateChildren = this.CreateChildren.bind(this);
         this.GoToTarget = this.GoToTarget.bind(this);
         this.ClickHandler = this.ClickHandler.bind(this);
+        this.ToggleChildren = this.ToggleChildren.bind(this);
     }
 
     CreateChildren(props) {
         var children = this.props.children;
         var childMenuItems = children.map((child) =>
-            <div id="MainMenuChildItem">
-                child: {child}
-            </div>
+            <SimpleMenuItem clickHandler={this.ClickHandler}
+                            menuItemType={"ChildMenuItem"}
+                            displayText={child}
+                            visibility={this.state.childVisibility}/>
         );
         return (
             <div id="MenuItemChildren">
@@ -22,19 +28,31 @@ class DnDMenuItem extends Component {
         );
     }
 
+    ToggleChildren() {
+        if (this.state.childVisibility == "hide") {
+            this.setState({childVisibility: "show"});
+        }
+        if (this.state.childVisibility == "show") {
+            this.setState({childVisibility: "hide"});
+        }
+    }
+
     GoToTarget() {
         // go to the right page
     }
 
     ClickHandler() {
         this.GoToTarget();
+        this.ToggleChildren();
         // OR open/close child drawer
     }
 
     render() {
         return (
-            <div id="MainMenuItem" onMouseDown={this.ClickHandler}>
+            <div id="MainMenuItem">
+                <div id="ClickBox" onMouseDown={this.ClickHandler}>
                 {this.props.displayText}
+                </div>
                 <this.CreateChildren/>
             </div>
         );

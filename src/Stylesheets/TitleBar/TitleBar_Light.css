@@ -10,7 +10,8 @@ body {
     margin: 0px;
     color: black;
     font-family: sans-serif;
-    background-color: white;
+    background-color: #e5e5e5;
+    overflow: hidden;
 }
 
 #title.light {
