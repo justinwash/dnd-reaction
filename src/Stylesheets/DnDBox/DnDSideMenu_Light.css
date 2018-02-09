@@ -7,21 +7,34 @@
     background-color: #e5e5e5;
 }
 
-#ChildMenuItem {
-    background-color: #28282c;
+#MainMenuItem.light {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
 }
 
-#ChildMenuItem:hover {
-    background-color: #212124;
+#MainMenuItem.light:hover {
+    background-color: #f0f0f0;
     border-left: 6px;
     border-left-style: solid;
-    border-left-color: #1c1c1f;
+    border-left-color: gray;
 }
 
-#ChildMenuItem.hide {
+#ChildMenuItem_light {
+    background-color: white;
+}
+
+#ChildMenuItem_light:hover {
+    background-color: #f8f8f8;
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: lightgray;
+}
+
+#ChildMenuItem_light.hide {
     display: none;
 }
 
-#ChildMenuItem.show {
+#ChildMenuItem_light.show {
     display: inherit;
 }

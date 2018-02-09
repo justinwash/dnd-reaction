@@ -9,16 +9,20 @@ class DnDSideMenu extends Component {
             <div id="DnDSideMenu" className={this.props.theme}>
                 <DnDMenuItem displayText={"Character Sheets"}
                              target={"/charsheets"}
-                             children={[]}/>
+                             children={[]}
+                             theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Campaign Notes"}
                              target={"/campnotes"}
-                             children={[]}/>
+                             children={[]}
+                             theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Browse The SRD"}
                              target={"doNothing"}
-                             children={['Classes', 'Races', 'Spells', 'Equipment']}/>
+                             children={['Classes', 'Races', 'Spells', 'Equipment']}
+                             theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Encounters"}
                              target={"/encounters"}
-                             children={[]}/>
+                             children={[]}
+                             theme={this.props.theme}/>
 
             </div>
         );

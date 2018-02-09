@@ -15,9 +15,10 @@ class DnDMenuItem extends Component {
 
     CreateChildren(props) {
         var children = this.props.children;
+        var theme = this.props.theme;
         var childMenuItems = children.map((child) =>
             <SimpleMenuItem clickHandler={this.ClickHandler}
-                            menuItemType={"ChildMenuItem"}
+                            menuItemType={"ChildMenuItem_" + theme}
                             displayText={child}
                             visibility={this.state.childVisibility}/>
         );
@@ -49,7 +50,7 @@ class DnDMenuItem extends Component {
 
     render() {
         return (
-            <div id="MainMenuItem">
+            <div id="MainMenuItem" className={this.props.theme}>
                 <div id="ClickBox" onMouseDown={this.ClickHandler}>
                 {this.props.displayText}
                 </div>
