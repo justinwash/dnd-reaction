@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-// import components
+import {Route, Switch} from 'react-router-dom';
+// import window components
 import DnDSideMenu from './DnDSideMenu/DnDSideMenu';
 import TitleBar from './TitleBar';
 // import stylesheets
@@ -7,6 +8,18 @@ import '../Stylesheets/App/App_Light.css';
 import '../Stylesheets/App/App_Dark.css';
 import '../Stylesheets/DnDBox/DnDBox.css';
 import '../Stylesheets/DnDBox/DnDMainView.css'
+// import pages
+import DnDHomePage from './Pages/DnDHomePage';
+import CharSheetTest from './Pages/CharSheetTest';
+import CampNotes from './Pages/CampNotes';
+import Encounters from './Pages/Encounters';
+import SRDHomePage from './Pages/SRDHomePage';
+// import SRD Pages
+import SRDClasses from './Pages/SRD/SRDClasses';
+import SRDRaces from './Pages/SRD/SRDRaces';
+import SRDSpells from './Pages/SRD/SRDSpells';
+import SRDEquipment from './Pages/SRD/SRDEquipment';
+
 
 class App extends Component {
     constructor(props) {
@@ -34,7 +47,18 @@ class App extends Component {
                 <div id="DnDBox">
                     <DnDSideMenu theme={this.state.theme}/>
                     <div id="DnDMainView" className={this.state.theme}>
-                        {this.props.children}
+                        <Switch>
+                            <Route exact path='/' component={DnDHomePage}/>
+                            <Route path='/charsheettest' component={CharSheetTest}/>
+                            <Route path='/campnotes' component={CampNotes}/>
+                            <Route path='/encounters' component={Encounters}/>
+                            <Route path='/srd' component={SRDHomePage}/>
+                            // srd child routes. MOVE THESE!!!
+                            <Route path='/Classes' component={SRDClasses}/>
+                            <Route path='/Races' component={SRDRaces}/>
+                            <Route path='/Spells' component={SRDSpells}/>
+                            <Route path='/Equipment' component={SRDEquipment}/>
+                        </Switch>
                     </div>
                 </div>
             </div>

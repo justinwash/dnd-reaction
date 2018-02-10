@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SimpleMenuItem from './SimpleMenuItem';
+import {Link} from 'react-router-dom'
 
 class DnDMenuItem extends Component {
     constructor(props) {
@@ -20,7 +21,8 @@ class DnDMenuItem extends Component {
             <SimpleMenuItem clickHandler={this.ClickHandler}
                             menuItemType={"ChildMenuItem_" + theme}
                             displayText={child}
-                            visibility={this.state.childVisibility}/>
+                            visibility={this.state.childVisibility}
+                            target={child}/>
         );
         return (
             <div id="MenuItemChildren">
@@ -51,9 +53,11 @@ class DnDMenuItem extends Component {
     render() {
         return (
             <div id="MainMenuItem" className={this.props.theme}>
-                <div id="ClickBox" onMouseDown={this.ClickHandler}>
-                {this.props.displayText}
-                </div>
+                <Link to={this.props.target}>
+                    <div id="ClickBox" onMouseDown={this.ClickHandler}>
+                        {this.props.displayText}
+                    </div>
+                </Link>
                 <this.CreateChildren/>
             </div>
         );

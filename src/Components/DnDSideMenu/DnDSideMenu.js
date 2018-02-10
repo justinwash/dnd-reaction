@@ -7,8 +7,12 @@ class DnDSideMenu extends Component {
     render() {
         return (
             <div id="DnDSideMenu" className={this.props.theme}>
+                <DnDMenuItem displayText={"Home"}
+                             target={"/"}
+                             children={[]}
+                             theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Character Sheets"}
-                             target={"/charsheets"}
+                             target={"/charsheettest"}
                              children={[]}
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Campaign Notes"}
@@ -16,7 +20,7 @@ class DnDSideMenu extends Component {
                              children={[]}
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Browse The SRD"}
-                             target={"doNothing"}
+                             target={"/srd"}
                              children={['Classes', 'Races', 'Spells', 'Equipment']}
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Encounters"}
