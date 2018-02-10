@@ -12,7 +12,8 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            theme: 'dark'
+            theme: 'dark',
+            currentPage: 'DnDHomePage'
         };
         this.themeSwitcher = this.themeSwitcher.bind(this);
     }
@@ -33,12 +34,7 @@ class App extends Component {
                 <div id="DnDBox">
                     <DnDSideMenu theme={this.state.theme}/>
                     <div id="DnDMainView" className={this.state.theme}>
-                        <h1 id="App-title" className={this.state.theme}>Welcome to DnD Reaction</h1>
-                        <p id="App-intro" className={this.state.theme}>
-                            A Dungeon Master's companion
-                            built with<code> React.js </code>
-                            <code> Electron </code>
-                        </p>
+                        {this.props.children}
                     </div>
                 </div>
             </div>
