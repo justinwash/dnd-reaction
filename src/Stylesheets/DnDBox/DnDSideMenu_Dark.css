@@ -1,7 +1,7 @@
 #DnDSideMenu {
     width: 20%;
     min-width: 200px;
-    overflow: auto;
+    overflow-x: hidden;
 }
 
 #MainMenuItem.dark {

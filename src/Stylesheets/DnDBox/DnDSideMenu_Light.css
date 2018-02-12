@@ -13,6 +13,11 @@
     line-height: 48px;
 }
 
+#MainMenuItem.light a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 #MainMenuItem.light:hover {
     background-color: #f0f0f0;
     border-left: 6px;
@@ -36,5 +41,6 @@
 }
 
 #ChildMenuItem_light.show {
-    display: inherit;
+    display: flex;
+    flex-direction: column;
 }
