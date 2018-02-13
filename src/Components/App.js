@@ -20,6 +20,8 @@ import SRDRaces from './Pages/SRD/SRDRaces';
 import SRDSpells from './Pages/SRD/SRDSpells';
 import SRDEquipment from './Pages/SRD/SRDEquipment';
 
+// create database
+
 
 class App extends Component {
     constructor(props) {

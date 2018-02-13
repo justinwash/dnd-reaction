@@ -1,9 +1,10 @@
 const electron = require('electron');
+
 // Module to control application life.
 const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
-
+const Datastore = require('nedb');
 const path = require('path');
 const url = require('url');
 
@@ -13,7 +14,7 @@ let mainWindow;
 
 function createWindow () {
     // Create the browser window.
-    mainWindow = new BrowserWindow({width: 800, height: 600, frame: false});
+    mainWindow = new BrowserWindow({width: 1366, height: 768, frame: false});
 
     // and load the index.html of the app.
     const startUrl = process.env.ELECTRON_START_URL || url.format({
@@ -38,6 +39,11 @@ function createWindow () {
     })
 }
 
+function createDB() {
+    var db = new Datastore({filename: './data/datafile.db', autoload: true});
+}
+
+app.on('ready', createDB);
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.

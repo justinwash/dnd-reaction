@@ -7,6 +7,7 @@
     "@fortawesome/react-fontawesome": "0.0.17",
     "axios": "^0.17.1",
     "electron-react-devtools": "^0.5.3",
+    "nedb": "^1.8.0",
     "react": "^16.2.0",
     "react-desktop": "^0.3.3",
     "react-dom": "^16.2.0",

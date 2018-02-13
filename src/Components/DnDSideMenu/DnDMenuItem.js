@@ -32,10 +32,10 @@ class DnDMenuItem extends Component {
     }
 
     ToggleChildren() {
-        if (this.state.childVisibility == "hide") {
+        if (this.state.childVisibility === "hide") {
             this.setState({childVisibility: "show"});
         }
-        if (this.state.childVisibility == "show") {
+        if (this.state.childVisibility === "show") {
             this.setState({childVisibility: "hide"});
         }
     }
