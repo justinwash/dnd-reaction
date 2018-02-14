@@ -5,28 +5,21 @@ import {BrowserRouter} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 import './App.css'
 import App from './Components/App'
+import 'nedb';
 
-// Create/load database
-var Datastore = require('nedb'),
-    db = new Datastore({filename: '/data/datafile.db', autoload: true});
-// Test database
-var doc = {
-    hello: 'world'
-    , n: 5
-    , today: new Date()
-    , nedbIsAwesome: true
-    , notthere: null
-    , notToBeSaved: undefined  // Will not be saved
-    , fruits: ['apple', 'orange', 'pear']
-    , infos: {name: 'nedb'}
-};
-db.insert(doc, function (err, newDoc) {
-    console.log(newDoc);
+// Connect to Electron Remote
+const remote = window.require('electron').remote;
+// Connect to dnDB
+var dnDB = remote.getGlobal('dnDB');
+// Test connection to dnDB
+dnDB.find({}, function (err, docs) {
+    console.log(docs + "from index.js");
 });
 
+// Render App
 ReactDOM.render((
         <BrowserRouter>
-            <App/>
+            <App datastore={dnDB}/>
         </BrowserRouter>),
     document.getElementById('root'));
 registerServiceWorker();

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Route, Switch} from 'react-router-dom';
+import 'nedb';
 // import window components
 import DnDSideMenu from './DnDSideMenu/DnDSideMenu';
 import TitleBar from './TitleBar';
@@ -20,9 +21,6 @@ import SRDRaces from './Pages/SRD/SRDRaces';
 import SRDSpells from './Pages/SRD/SRDSpells';
 import SRDEquipment from './Pages/SRD/SRDEquipment';
 
-// create database
-
-
 class App extends Component {
     constructor(props) {
         super(props);
@@ -31,6 +29,12 @@ class App extends Component {
             currentPage: 'DnDHomePage'
         };
         this.themeSwitcher = this.themeSwitcher.bind(this);
+    }
+
+    componentDidMount() {
+        this.props.datastore.find({}, function (err, docs) {
+            console.log(docs + "from app.js");
+        });
     }
 
     themeSwitcher() {

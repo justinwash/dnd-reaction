@@ -1,5 +1,4 @@
 const electron = require('electron');
-
 // Module to control application life.
 const app = electron.app;
 // Module to create native browser window.
@@ -7,6 +6,11 @@ const BrowserWindow = electron.BrowserWindow;
 const Datastore = require('nedb');
 const path = require('path');
 const url = require('url');
+
+// Create new or load existing datastore
+var datastore = new Datastore({filename: './data/dnDB.db', autoload: true});
+// Create global object 'dnDB' from datastore
+global.dnDB = datastore;
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
