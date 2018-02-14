@@ -6,6 +6,7 @@ const BrowserWindow = electron.BrowserWindow;
 const Datastore = require('nedb');
 const path = require('path');
 const url = require('url');
+const SRDDataManager = require('./srd-data-manager.js');
 
 // Create new or load existing datastore
 var datastore = new Datastore({filename: './data/Datastores/dnDB.db', autoload: true});
@@ -13,6 +14,9 @@ var datastore = new Datastore({filename: './data/Datastores/dnDB.db', autoload: 
 global.dnDB = datastore;
 // Check SRD data integrity against dnDB
 require('./srd-data-manager.js');
+
+SRDDataManager.checkSRDComplete();
+console.log(SRDDataManager.printSRDSection('legal'));
 
 // Keep a global reference of the window object
 let mainWindow;
