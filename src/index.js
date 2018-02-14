@@ -9,12 +9,14 @@ import 'nedb';
 
 // Connect to Electron Remote
 const remote = window.require('electron').remote;
+
 // Connect to dnDB
 var dnDB = remote.getGlobal('dnDB');
-// Test connection to dnDB
+
+/* Test connection to dnDB
 dnDB.find({}, function (err, docs) {
     console.log(docs + "from index.js");
-});
+}); */
 
 // Render App
 ReactDOM.render((

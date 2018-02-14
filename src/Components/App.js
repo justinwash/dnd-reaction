@@ -11,7 +11,7 @@ import '../Stylesheets/DnDBox/DnDBox.css';
 import '../Stylesheets/DnDBox/DnDMainView.css'
 // import pages
 import DnDHomePage from './Pages/DnDHomePage';
-import CharSheetTest from './Pages/CharSheetTest';
+import CharSheet from './Pages/CharSheet';
 import CampNotes from './Pages/CampNotes';
 import Encounters from './Pages/Encounters';
 import SRDHomePage from './Pages/SRDHomePage';
@@ -29,12 +29,6 @@ class App extends Component {
             currentPage: 'DnDHomePage'
         };
         this.themeSwitcher = this.themeSwitcher.bind(this);
-    }
-
-    componentDidMount() {
-        this.props.datastore.find({}, function (err, docs) {
-            console.log(docs + "from app.js");
-        });
     }
 
     themeSwitcher() {
@@ -55,7 +49,7 @@ class App extends Component {
                     <div id="DnDMainView" className={this.state.theme}>
                         <Switch>
                             <Route exact path='/' component={DnDHomePage}/>
-                            <Route path='/charsheettest' component={CharSheetTest}/>
+                            <Route path='/charsheet' component={CharSheet}/>
                             <Route path='/campnotes' component={CampNotes}/>
                             <Route path='/encounters' component={Encounters}/>
                             <Route path='/srd' component={SRDHomePage}/>

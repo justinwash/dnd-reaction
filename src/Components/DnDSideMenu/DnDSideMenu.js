@@ -12,7 +12,7 @@ class DnDSideMenu extends Component {
                              children={[]}
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Character Sheets"}
-                             target={"/charsheettest"}
+                             target={"/charsheet"}
                              children={[]}
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Campaign Notes"}

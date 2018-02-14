@@ -8,12 +8,13 @@ const path = require('path');
 const url = require('url');
 
 // Create new or load existing datastore
-var datastore = new Datastore({filename: './data/dnDB.db', autoload: true});
+var datastore = new Datastore({filename: './data/Datastores/dnDB.db', autoload: true});
 // Create global object 'dnDB' from datastore
 global.dnDB = datastore;
+// Check SRD data integrity against dnDB
+require('./srd-data-manager.js');
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
+// Keep a global reference of the window object
 let mainWindow;
 
 function createWindow () {
@@ -36,21 +37,11 @@ function createWindow () {
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function () {
-        // Dereference the window object, usually you would store windows
-        // in an array if your app supports multi windows, this is the time
-        // when you should delete the corresponding element.
+        // Dereference the window object
         mainWindow = null
     })
 }
 
-function createDB() {
-    var db = new Datastore({filename: './data/datafile.db', autoload: true});
-}
-
-app.on('ready', createDB);
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
 app.on('ready', createWindow);
 
 // Quit when all windows are closed.
@@ -69,6 +60,3 @@ app.on('activate', function () {
         createWindow()
     }
 });
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.

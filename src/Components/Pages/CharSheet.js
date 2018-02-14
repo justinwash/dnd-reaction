@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class CharSheetTest extends Component {
+class CharSheet extends Component {
     render() {
         return (
-            <div>
+            <div id="CharSheet">
                 THIS IS A CHARACTER SHEET PAGE?
             </div>
         )
     }
 }
 
-export default CharSheetTest;
+export default CharSheet;
