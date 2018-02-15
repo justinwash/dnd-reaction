@@ -3,20 +3,12 @@ const electron = require('electron');
 const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
-const Datastore = require('nedb');
 const path = require('path');
 const url = require('url');
-const SRDDataManager = require('./srd-data-manager.js');
+const dbapi = require('./db-api.js');
 
-// Create new or load existing datastore
-var datastore = new Datastore({filename: './data/Datastores/dnDB.db', autoload: true});
-// Create global object 'dnDB' from datastore
-global.dnDB = datastore;
-// Check SRD data integrity against dnDB
-require('./srd-data-manager.js');
-
-SRDDataManager.checkSRDComplete();
-console.log(SRDDataManager.printSRDSection('legal'));
+dbapi.checkSRDComplete();
+console.log(dbapi.printSRDSection('legal'));
 
 // Keep a global reference of the window object
 let mainWindow;

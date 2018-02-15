@@ -1,8 +1,12 @@
 // We need this to read files apparently
 const fs = require('fs');
+const Datastore = require('nedb');
+
+var dnDB = new Datastore({filename: './data/Datastores/dnDB.db', autoload: true});
+var dataToPrint = null;
 
 // our exported module
-var SRDDataManager = {
+var dbapi = {
     // Make sure the db exisits and contains SRD data
     checkSRDComplete: function () {
         checkSRD('legal');
@@ -25,24 +29,19 @@ var SRDDataManager = {
     },
 
     printSRDSection: function (section) {
-        // Connect to global db instance
-        var dnDB = global.dnDB;
-        // Build a ndDB query to get section if it exists in the local db
         var query = {};
         query[section] = {$exists: true};
-        // Print SRDSection. Just to test this out.
 
-        dnDB.find(query, function (err, docs) {
-            console.log(docs);
+        var docObject = null;
+        dnDB.findOne(query, function (err, doc) {
+            docObject = doc;
+            printData(docObject)
         });
     }
 };
 
 // Main logic for the integrity check
 function checkSRD(section) {
-    // Connect to global db instance
-    var dnDB = global.dnDB;
-    // Build a ndDB query to check if the section exists in the local db
     var query = {};
     query[section] = {$exists: true};
     var sectionJson = JSON.parse(fs.readFileSync('./data/SRD/Sections/' + section + '.json'));
@@ -59,4 +58,8 @@ function checkSRD(section) {
     });
 }
 
-module.exports = SRDDataManager;
+function printData(data) {
+    console.log(data);
+}
+
+module.exports = dbapi;
