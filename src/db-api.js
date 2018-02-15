@@ -59,7 +59,8 @@ function checkSRD(section) {
 }
 
 function printData(data) {
-    console.log(data);
+    // get just the data we want out of the object
+    console.log(data.legal.content.toString());
 }
 
 module.exports = dbapi;
