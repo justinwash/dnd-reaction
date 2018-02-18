@@ -1,9 +1,8 @@
 // We need this to read files apparently
-const fs = require('fs');
+const fs = window.require('fs');
 const Datastore = require('nedb');
 
 var dnDB = new Datastore({filename: './data/Datastores/dnDB.db', autoload: true});
-var dataToPrint = null;
 
 // our exported module
 var dbapi = {
@@ -35,8 +34,9 @@ var dbapi = {
         var docObject = null;
         dnDB.findOne(query, function (err, doc) {
             docObject = doc;
-            printData(docObject)
+            return printData(docObject);
         });
+
     }
 };
 
@@ -61,6 +61,8 @@ function checkSRD(section) {
 function printData(data) {
     // get just the data we want out of the object
     console.log(data.legal.content.toString());
+    var returnMe = data;
+    return returnMe;
 }
 
 module.exports = dbapi;

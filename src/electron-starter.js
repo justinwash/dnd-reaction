@@ -5,10 +5,6 @@ const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 const path = require('path');
 const url = require('url');
-const dbapi = require('./db-api.js');
-
-dbapi.checkSRDComplete();
-console.log(dbapi.printSRDSection('legal'));
 
 // Keep a global reference of the window object
 let mainWindow;
@@ -56,3 +52,5 @@ app.on('activate', function () {
         createWindow()
     }
 });
+
+app.commandLine.appendSwitch('remote-debugging-port', '3001');
