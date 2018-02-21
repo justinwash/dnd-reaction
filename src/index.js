@@ -10,8 +10,9 @@ import 'nedb';
 // Connect to Electron Remote
 const remote = window.require('electron').remote;
 
-// Connect to dnDB
-var dnDB = remote.getGlobal('dnDB');
+// Connect to and test database
+const dbapi = require('./db-api.js');
+dbapi.checkSRDComplete();
 
 /* Test connection to dnDB
 dnDB.find({}, function (err, docs) {
@@ -21,7 +22,7 @@ dnDB.find({}, function (err, docs) {
 // Render App
 ReactDOM.render((
         <BrowserRouter>
-            <App datastore={dnDB}/>
+            <App/>
         </BrowserRouter>),
     document.getElementById('root'));
 registerServiceWorker();

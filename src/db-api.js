@@ -2,7 +2,7 @@
 const fs = window.require('fs');
 const Datastore = require('nedb');
 
-var dnDB = new Datastore({filename: './data/Datastores/dnDB.db', autoload: true});
+var dnDB = new Datastore({filename: 'dnDB.db', autoload: true});
 
 // our exported module
 var dbapi = {
