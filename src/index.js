@@ -7,9 +7,6 @@ import './App.css'
 import App from './Components/App'
 import 'nedb';
 
-// Connect to Electron Remote
-const remote = window.require('electron').remote;
-
 // Connect to and test database
 const dbapi = require('./db-api.js');
 dbapi.checkSRDComplete();

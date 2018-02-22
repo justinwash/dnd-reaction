@@ -58,6 +58,7 @@ class App extends Component {
                             <Route path='/Races' component={SRDRaces}/>
                             <Route path='/Spells' component={SRDSpells}/>
                             <Route path='/Equipment' component={SRDEquipment}/>
+                            <Route path='/Legal' component={SRDLegal}/>
                         </Switch>
                     </div>
                 </div>
