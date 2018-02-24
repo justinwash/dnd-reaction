@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-// Connect to dnDB
-import Datastore from 'nedb';
+import DBController from '../../DBController.js';
 
-var dnDB = new Datastore({filename: 'dnDB.db', autoload: true});
+const db = new DBController();
+var sectionObject = null;
 
 class SRDLegal extends Component {
     constructor(props) {
@@ -10,43 +10,45 @@ class SRDLegal extends Component {
         this.state = {
             content: null
         };
-        this.helpMe = this.helpMe.bind(this);
-        this.querySRDSection = this.querySRDSection.bind(this);
-        this.fn = this.fn.bind(this);
+        this.GetSection = this.GetSection.bind(this);
+        this.RenderSection = this.RenderSection.bind(this);
     }
 
-    async componentDidMount() {
-        this.helpMe();
+    componentDidMount() {
+        this.GetSection('legal');
     }
 
-    helpMe() {
-        this.querySRDSection('legal');
+    async GetSection(section) {
+        sectionObject = await db.retrieveSRDSection(section);
+        this.setState({content: this.RenderSection(sectionObject, section)});
     }
 
-    querySRDSection(section) {
-        var query = {};
-        query[section] = {$exists: true};
-
-        dnDB.findOne(query, this.fn);
-
-    }
-
-    fn(err, data) {
-        var stringdata = data.toString();
-        if (err) return console.log(err);
-        if (data === undefined) return console.log('undefined');
-        if (data.length > 0) {
-            this.setState({
-                content: stringdata
-            });
-        }
-        console.log(data);
+    RenderSection(object, section) {
+        var contentKey = object[section].content;
+        var sectionItems = Object(contentKey).map((key) =>
+            <p>
+                <div>
+                    {key.replace(/(&quot\;)/g, "\"")
+                        .replace(/(&#39\;)/g, "\'")
+                        .replace(/(&amp\;)/g, "\&")}
+                </div>
+            </p>
+        );
+        console.log(sectionItems.valueOf());
+        return (
+            <div>
+                {sectionItems}
+            </div>
+        );
     }
 
     render() {
         return (
             <div>
-                {this.state.content} legal stuff
+                LEGAL MUMBO JUMBO
+                <p>
+                    {this.state.content}
+                </p>
             </div>
         )
     }

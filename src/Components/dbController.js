@@ -1,42 +1,57 @@
-// Import and configure RxDB
+// Get filesystem access from electron window
+const fs = window.require('fs');
+// Import and configure PouchDB
+const PouchDB = require('pouchdb').default;
+var db = new PouchDB('DnDB');
 
-// our exported module
-var DBController = {
+// Our exported module
+class DBController {
     // Make sure the db exisits and contains SRD data
-    checkSRDComplete: function () {
-        checkSRD('legal');
-        checkSRD('races');
-        checkSRD('beyond1st');
-        checkSRD('equipment');
-        checkSRD('feats');
-        checkSRD('mechanics');
-        checkSRD('combat');
-        checkSRD('spellcasting');
-        checkSRD('running');
-        checkSRD('magicitems1');
-        checkSRD('magicitems2');
-        checkSRD('monsters');
-        checkSRD('conditions');
-        checkSRD('gods');
-        checkSRD('planes');
-        checkSRD('creatures');
-        checkSRD('npcs');
-    },
-
-    checkSRDSection: function (section) {
-        checkSRD(section);
-    },
-
-    querySRDSection: function (section) {
-        // do stuff
+    async checkSRDComplete() {
+        await this.checkSRDSection('legal');
+        await this.checkSRDSection('races');
+        await this.checkSRDSection('beyond1st');
+        await this.checkSRDSection('equipment');
+        await this.checkSRDSection('feats');
+        await this.checkSRDSection('mechanics');
+        await this.checkSRDSection('combat');
+        await this.checkSRDSection('spellcasting');
+        await this.checkSRDSection('running');
+        await this.checkSRDSection('magicitems1');
+        await this.checkSRDSection('magicitems2');
+        await this.checkSRDSection('monsters');
+        await this.checkSRDSection('conditions');
+        await this.checkSRDSection('gods');
+        await this.checkSRDSection('planes');
+        await this.checkSRDSection('creatures');
+        await this.checkSRDSection('npcs');
     }
 
-};
+    async checkSRDSection(section) {
+        var sectionJson = JSON.parse(fs.readFileSync('./data/SRD/Sections/' + section + '.json'));
+        sectionJson._id = "srd" + section;
+        try {
+            let result = await db.put(sectionJson);
+            let storedSection = await db.get(result._id);
+            console.log(storedSection + " not found. Added.")
+        } catch (err) {
+            if (err.name === 'conflict') {
+                console.log(section + " found.");
+            }
+        }
+    }
 
-// Main logic for the integrity check
-function checkSRD(section) {
-    var sectionJson = JSON.parse(fs.readFileSync('./data/SRD/Sections/' + section + '.json'));
-    // Add SRD to datastore if it doesn't already exist
+    async retrieveSRDSection(section) {
+        var id = "srd" + section;
+        var sectionObject = null;
+        try {
+            sectionObject = await db.get(id);
+        } catch (err) {
+            console.log("something din't do");
+        }
+        return sectionObject;
+    }
+
 }
 
-module.exports = DBController;
+export default DBController;

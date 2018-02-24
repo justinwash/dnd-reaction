@@ -20,6 +20,7 @@ import SRDClasses from './Pages/SRD/SRDClasses';
 import SRDRaces from './Pages/SRD/SRDRaces';
 import SRDSpells from './Pages/SRD/SRDSpells';
 import SRDEquipment from './Pages/SRD/SRDEquipment';
+import SRDLegal from './Pages/SRD/SRDLegal';
 
 class App extends Component {
     constructor(props) {

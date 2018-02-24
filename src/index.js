@@ -5,11 +5,11 @@ import {BrowserRouter} from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 import './App.css'
 import App from './Components/App'
-import 'nedb';
+import DBController from './Components/DBController.js';
 
 // Connect to and test database
-const dbapi = require('./db-api.js');
-dbapi.checkSRDComplete();
+const db = new DBController();
+db.checkSRDComplete();
 
 /* Test connection to dnDB
 dnDB.find({}, function (err, docs) {
