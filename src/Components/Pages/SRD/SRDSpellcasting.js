@@ -26,22 +26,46 @@ class SRDSpellcasting extends Component {
     }
 
     RenderSection(object, section) {
-        console.log(object.valueOf());
-        var sectionItems = Object(db.getSRDSectionKeys(object[section])).map((key) =>
+        var items = [];
+        var keys = Object.values(db.getSRDSectionKeys(object[section]));
+
+        for (var key in keys) {
+            var piece = keys[key];
+            var whatAmI = object[section][piece];
+            if (whatAmI == undefined) {
+                console.log('undefined');
+            } else {
+                items.push(object[section][piece]);
+                console.log(items.toString());
+            }
+        }
+
+        var intro = (
             <div>
-                {key.replace(/(&quot\;)/g, "\"")
-                    .replace(/(&#39\;)/g, "\'")
-                    .replace(/(&amp\;)/g, "\&")}
+                {items[0].toString()}
                 <p/>
             </div>
         );
-        console.log(sectionItems.valueOf());
+
+        var content = items.map((key) =>
+            <div>
+                {key.content}
+                <p/>
+            </div>);
+
         return (
             <div>
-                {sectionItems}
+                <div>
+                    {intro}
+                </div>
+                <div>
+                    {content}
+                </div>
             </div>
         );
     }
+
+    //.replace(/(&quot;)/g, "\"").replace(/(&#39;)/g, "'").replace(/(&amp;)/g, "&")
 
     render() {
         return (

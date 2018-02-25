@@ -26,11 +26,11 @@ class SRDLegal extends Component {
 
     RenderSection(object, section) {
         var contentKey = object[section].content;
-        var sectionItems = Object(contentKey).map((key) =>
+        var sectionItems = Object(contentKey).map((content) =>
             <div>
-                    {key.replace(/(&quot\;)/g, "\"")
-                        .replace(/(&#39\;)/g, "\'")
-                        .replace(/(&amp\;)/g, "\&")}
+                {content.replace(/(&quot;)/g, "\"")
+                    .replace(/(&#39;)/g, "'")
+                    .replace(/(&amp;)/g, "&")}
                 <p/>
             </div>
 
