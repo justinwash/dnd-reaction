@@ -1,0 +1,11 @@
+#Title {
+    padding-top: 5%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#PageBody {
+    padding: 5%;
+    font-size: x-small;
+    text-align: justify;
+}

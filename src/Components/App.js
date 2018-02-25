@@ -14,13 +14,15 @@ import DnDHomePage from './Pages/DnDHomePage';
 import CharSheet from './Pages/CharSheet';
 import CampNotes from './Pages/CampNotes';
 import Encounters from './Pages/Encounters';
-import SRDHomePage from './Pages/SRDHomePage';
-// import SRD Pages
+import SRDHomePage from './Pages/SRD/SRDHomePage';
 import SRDClasses from './Pages/SRD/SRDClasses';
 import SRDRaces from './Pages/SRD/SRDRaces';
-import SRDSpells from './Pages/SRD/SRDSpells';
+import SRDSpellcasting from './Pages/SRD/SRDSpellcasting';
 import SRDEquipment from './Pages/SRD/SRDEquipment';
 import SRDLegal from './Pages/SRD/SRDLegal';
+
+// import SRD Pages
+
 
 class App extends Component {
     constructor(props) {
@@ -57,9 +59,9 @@ class App extends Component {
                             // srd child routes. MOVE THESE!!!
                             <Route path='/Classes' component={SRDClasses}/>
                             <Route path='/Races' component={SRDRaces}/>
-                            <Route path='/Spells' component={SRDSpells}/>
+                            <Route path='/Spellcasting' component={SRDSpellcasting}/>
                             <Route path='/Equipment' component={SRDEquipment}/>
-                            <Route path='/Legal' component={SRDLegal}/>
+                            <Route path='/Legal Info' component={SRDLegal}/>
                         </Switch>
                     </div>
                 </div>

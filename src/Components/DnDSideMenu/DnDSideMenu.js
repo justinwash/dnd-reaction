@@ -21,7 +21,15 @@ class DnDSideMenu extends Component {
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Browse The SRD"}
                              target={"/srd"}
-                             children={['Classes', 'Races', 'Spells', 'Equipment', 'Legal']}
+                             children={['Spellcasting',
+                                 'Characters',
+                                 'Classes',
+                                 'Combat',
+                                 'Equipment',
+                                 'Mechanics',
+                                 'Monsters',
+                                 'Playing',
+                                 'Legal Info']}
                              theme={this.props.theme}/>
                 <DnDMenuItem displayText={"Encounters"}
                              target={"/encounters"}

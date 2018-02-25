@@ -1,0 +1,11 @@
+#HomePageTitle {
+    padding-top: 5%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#HomePageBody {
+    padding: 5%;
+    font-size: small;
+    text-align: justify;
+}

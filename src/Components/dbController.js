@@ -8,7 +8,7 @@ var db = new PouchDB('DnDB');
 class DBController {
     // Make sure the db exisits and contains SRD data
     async checkSRDComplete() {
-        await this.checkSRDSection('legal');
+        await this.checkSRDSection('legal info');
         await this.checkSRDSection('races');
         await this.checkSRDSection('beyond1st');
         await this.checkSRDSection('equipment');
@@ -16,7 +16,7 @@ class DBController {
         await this.checkSRDSection('mechanics');
         await this.checkSRDSection('combat');
         await this.checkSRDSection('spellcasting');
-        await this.checkSRDSection('running');
+        await this.checkSRDSection('playing');
         await this.checkSRDSection('magicitems1');
         await this.checkSRDSection('magicitems2');
         await this.checkSRDSection('monsters');
@@ -50,6 +50,21 @@ class DBController {
             console.log("something din't do");
         }
         return sectionObject;
+    }
+
+    getSRDSectionKeys(obj) {
+        var keys = [];
+        for (var key in obj) {
+            keys.push(key);
+            if (typeof obj[key] === "object") {
+                var subkeys = this.getSRDSectionKeys(obj[key]);
+                keys = keys.concat(subkeys.map(function (subkey) {
+                    return key + "." + subkey;
+                }));
+            }
+        }
+        console.log(keys);
+        return keys;
     }
 
 }
