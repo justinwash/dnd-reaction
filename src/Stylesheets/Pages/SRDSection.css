@@ -1,12 +1,13 @@
-#Title {
+#SRDPageTitle {
     padding-top: 5%;
     font-size: x-large;
     font-weight: bold;
 }
 
-#PageBody {
+#SRDPageBody {
     padding: 5%;
-    font-size: x-small;
+    font-size: small;
     text-align: left;
     text-indent: 5%;
 }
+

@@ -14,14 +14,18 @@ import DnDHomePage from './Pages/DnDHomePage';
 import CharSheet from './Pages/CharSheet';
 import CampNotes from './Pages/CampNotes';
 import Encounters from './Pages/Encounters';
-import SRDHomePage from './Pages/SRD/SRDHomePage';
-import SRDClasses from './Pages/SRD/SRDClasses';
-import SRDRaces from './Pages/SRD/SRDRaces';
-import SRDSpellcasting from './Pages/SRD/SRDSpellcasting';
-import SRDEquipment from './Pages/SRD/SRDEquipment';
-import SRDLegal from './Pages/SRD/SRDLegal';
-
 // import SRD Pages
+import SRDHomePage from './Pages/SRD/SRDHomePage';
+import SRDSpellcasting from './Pages/SRD/SRDSpellcasting';
+import SRDCharacters from './Pages/SRD/SRDCharacters';
+import SRDClasses from './Pages/SRD/SRDClasses';
+import SRDCombat from './Pages/SRD/SRDCombat';
+import SRDEquipment from './Pages/SRD/SRDEquipment';
+import SRDMechanics from './Pages/SRD/SRDMechanics';
+import SRDMonsters from './Pages/SRD/SRDMonsters';
+import SRDNpcs from './Pages/SRD/SRDNpcs';
+import SRDPlaying from './Pages/SRD/SRDPlaying';
+import SRDLegal from './Pages/SRD/SRDLegal';
 
 
 class App extends Component {
@@ -57,10 +61,15 @@ class App extends Component {
                             <Route path='/encounters' component={Encounters}/>
                             <Route path='/srd' component={SRDHomePage}/>
                             // srd child routes. MOVE THESE!!!
-                            <Route path='/Classes' component={SRDClasses}/>
-                            <Route path='/Races' component={SRDRaces}/>
                             <Route path='/Spellcasting' component={SRDSpellcasting}/>
+                            <Route path='/Characters' component={SRDCharacters}/>
+                            <Route path='/Classes' component={SRDClasses}/>
+                            <Route path='/Combat' component={SRDCombat}/>
                             <Route path='/Equipment' component={SRDEquipment}/>
+                            <Route path='/Mechanics' component={SRDMechanics}/>
+                            <Route path='/Monsters' component={SRDMonsters}/>
+                            <Route path='/NPCs' component={SRDNpcs}/>
+                            <Route path='/Playing' component={SRDPlaying}/>
                             <Route path='/Legal Info' component={SRDLegal}/>
                         </Switch>
                     </div>

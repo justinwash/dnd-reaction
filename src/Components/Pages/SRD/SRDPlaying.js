@@ -2,15 +2,15 @@ import React, {Component} from 'react';
 import '../../../Stylesheets/Pages/SRDSection.css';
 import SRDSection from './SRDSection';
 
-class SRDClasses extends Component {
+class SRDPlaying extends Component {
     render() {
         return (
             <div>
-                <div id='SRDPageTitle'>Classes</div>
-                <SRDSection section={'classes'}/>
+                <div id='SRDPageTitle'>Playing D&D 5e</div>
+                <SRDSection section={'playing'}/>
             </div>
         )
     }
 }
 
-export default SRDClasses;
+export default SRDPlaying;

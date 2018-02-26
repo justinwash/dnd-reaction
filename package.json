@@ -8,6 +8,7 @@
     "axios": "^0.17.1",
     "bluebird": "^3.5.1",
     "electron-react-devtools": "^0.5.3",
+    "isobject": "^3.0.1",
     "nedb": "^1.8.0",
     "nedb-promises": "^1.1.2",
     "object-resolve-path": "^1.1.1",

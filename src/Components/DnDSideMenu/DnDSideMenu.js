@@ -28,6 +28,7 @@ class DnDSideMenu extends Component {
                                  'Equipment',
                                  'Mechanics',
                                  'Monsters',
+                                 'NPCs',
                                  'Playing',
                                  'Legal Info']}
                              theme={this.props.theme}/>

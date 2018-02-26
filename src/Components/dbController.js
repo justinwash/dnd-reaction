@@ -1,4 +1,7 @@
 // Get filesystem access from electron window
+import isObject from "isobject/index";
+import React from 'react';
+
 const fs = window.require('fs');
 // Import and configure PouchDB
 const PouchDB = require('pouchdb').default;
@@ -8,23 +11,23 @@ var db = new PouchDB('DnDB');
 class DBController {
     // Make sure the db exisits and contains SRD data
     async checkSRDComplete() {
-        await this.checkSRDSection('legal info');
-        await this.checkSRDSection('races');
         await this.checkSRDSection('beyond1st');
+        await this.checkSRDSection('classes');
+        await this.checkSRDSection('combat');
+        await this.checkSRDSection('conditions');
+        await this.checkSRDSection('creatures');
         await this.checkSRDSection('equipment');
         await this.checkSRDSection('feats');
-        await this.checkSRDSection('mechanics');
-        await this.checkSRDSection('combat');
-        await this.checkSRDSection('spellcasting');
-        await this.checkSRDSection('playing');
+        await this.checkSRDSection('gods');
         await this.checkSRDSection('magicitems1');
         await this.checkSRDSection('magicitems2');
+        await this.checkSRDSection('mechanics');
         await this.checkSRDSection('monsters');
-        await this.checkSRDSection('conditions');
-        await this.checkSRDSection('gods');
-        await this.checkSRDSection('planes');
-        await this.checkSRDSection('creatures');
         await this.checkSRDSection('npcs');
+        await this.checkSRDSection('planes');
+        await this.checkSRDSection('playing');
+        await this.checkSRDSection('races');
+        await this.checkSRDSection('spellcasting');
     }
 
     async checkSRDSection(section) {
@@ -67,6 +70,49 @@ class DBController {
         return keys;
     }
 
+    // JWASH THIS IS AWFUL FIX IT
+    getAllSectionContent(obj) {
+        var contentJSX = Object.values(obj).map(function (groupItem, key) {
+            if (!isObject(groupItem)) {
+                return (<p>
+                    <div> {groupItem.toString()} </div>
+                </p>);
+            }
+            else {
+                return (
+                    Object.values(groupItem).map(function (item) {
+                        if (!isObject(item)) {
+                            return (<p>
+                                <div> {item.toString()} </div>
+                            </p>);
+                        }
+                        else {
+                            return (
+                                Object.values(item).map(function (subitem) {
+                                    if (!isObject(subitem)) {
+                                        return (<p>
+                                            <div> {subitem.toString()} </div>
+                                        </p>);
+                                    }
+                                    else {
+                                        return (
+                                            Object.values(subitem).map(function (subsubitem) {
+                                                return (<p>
+                                                    <div> {subsubitem.name} </div>
+                                                </p>);
+                                            })
+                                        )
+                                    }
+                                })
+                            );
+                        }
+                    })
+                );
+            }
+        });
+
+        return contentJSX;
+    }
 }
 
 export default DBController;
