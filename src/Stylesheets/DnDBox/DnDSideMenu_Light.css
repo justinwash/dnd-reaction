@@ -8,10 +8,19 @@
 }
 
 #MainMenuItem.light {
-    text-align: center;
+    text-align: left;
+    text-indent: 20px;
     vertical-align: middle;
     line-height: 48px;
 }
+
+#MainMenuItem.show {
+    background-color: #303030;
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: #222225;
+}
+
 
 #MainMenuItem.light a {
     color: inherit;

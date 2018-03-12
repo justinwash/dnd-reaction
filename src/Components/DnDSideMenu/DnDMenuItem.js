@@ -52,7 +52,7 @@ class DnDMenuItem extends Component {
 
     render() {
         return (
-            <div id="MainMenuItem" className={this.props.theme}>
+            <div id="MainMenuItem" className={[this.props.theme, this.state.childVisibility].join(' ')}>
                 <Link to={this.props.target}>
                     <div id="ClickBox" onMouseDown={this.ClickHandler}>
                         {this.props.displayText}
