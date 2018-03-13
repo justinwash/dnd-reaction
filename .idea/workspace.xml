@@ -22,8 +22,8 @@
       <file leaf-file-name="DnDSideMenu_Dark.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,11 @@
       <file leaf-file-name="DnDMenuItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="54" column="104" selection-start-line="54" selection-start-column="104" selection-end-line="54" selection-end-column="104" />
+            <state relative-caret-position="75">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +43,8 @@
       <file leaf-file-name="DnDSideMenu_Light.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="298">
+              <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -352,7 +355,7 @@
       <workItem from="1519621649207" duration="9012000" />
       <workItem from="1520291708124" duration="1053000" />
       <workItem from="1520632303936" duration="870000" />
-      <workItem from="1520893088377" duration="1129000" />
+      <workItem from="1520893088377" duration="3418000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -494,17 +497,24 @@
       <option name="project" value="LOCAL" />
       <updated>1520294254890</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="keep menu item highlighted when selected. Messes up some other things. SIGH... guess its redux time">
+      <created>1520894903347</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1520894903350</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182097000" />
+    <option name="totallyTimeSpent" value="184386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.15513127" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.15513127" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
@@ -514,7 +524,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30354393" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25462964" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25462964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -571,7 +581,8 @@
     <MESSAGE value="populating SRD pages" />
     <MESSAGE value="ignore me. most of this is gon get beleted" />
     <MESSAGE value="rename dbController DBController" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename dbController DBController" />
+    <MESSAGE value="keep menu item highlighted when selected. Messes up some other things. SIGH... guess its redux time" />
+    <option name="LAST_COMMIT_MESSAGE" value="keep menu item highlighted when selected. Messes up some other things. SIGH... guess its redux time" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -880,22 +891,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="54" column="104" selection-start-line="54" selection-start-column="104" selection-end-line="54" selection-end-column="104" />
+        <state relative-caret-position="75">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="298">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
         </state>
       </provider>
     </entry>

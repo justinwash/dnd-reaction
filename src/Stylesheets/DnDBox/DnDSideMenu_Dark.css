@@ -11,7 +11,7 @@
     line-height: 48px;
 }
 
-#MainMenuItem.show {
+#MainMenuItem.showchildren {
     background-color: #303030;
     border-left: 6px;
     border-left-style: solid;
@@ -42,11 +42,11 @@
     border-left-color: #1c1c1f;
 }
 
-#ChildMenuItem_dark.hide {
+#ChildMenuItem_dark.hidechildren {
     display: none;
 }
 
-#ChildMenuItem_dark.show {
+#ChildMenuItem_dark.showchildren {
     display: flex;
     flex-direction: column;
 }

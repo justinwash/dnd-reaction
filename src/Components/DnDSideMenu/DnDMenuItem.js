@@ -6,10 +6,10 @@ class DnDMenuItem extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            childVisibility: "hide"
+            childVisibility: "hidechildren",
+            active: "inactive"
         };
         this.CreateChildren = this.CreateChildren.bind(this);
-        this.GoToTarget = this.GoToTarget.bind(this);
         this.ClickHandler = this.ClickHandler.bind(this);
         this.ToggleChildren = this.ToggleChildren.bind(this);
     }
@@ -32,27 +32,24 @@ class DnDMenuItem extends Component {
     }
 
     ToggleChildren() {
-        if (this.state.childVisibility === "hide") {
-            this.setState({childVisibility: "show"});
+        if (this.state.childVisibility === "hidechildren") {
+            this.setState({childVisibility: "showchildren"});
         }
-        if (this.state.childVisibility === "show") {
-            this.setState({childVisibility: "hide"});
+        if (this.state.childVisibility === "showchildren") {
+            this.setState({childVisibility: "hidechildren"});
         }
-    }
-
-    GoToTarget() {
-        // go to the right page
     }
 
     ClickHandler() {
-        this.GoToTarget();
         this.ToggleChildren();
         // OR open/close child drawer
     }
 
     render() {
         return (
-            <div id="MainMenuItem" className={[this.props.theme, this.state.childVisibility].join(' ')}>
+            <div id="MainMenuItem" className={[this.props.theme,
+                this.state.childVisibility,
+                this.state.active].join(' ')}>
                 <Link to={this.props.target}>
                     <div id="ClickBox" onMouseDown={this.ClickHandler}>
                         {this.props.displayText}
