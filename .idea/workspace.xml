@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9ba3d93-3b74-473c-973c-9709066213fd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/DBController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/DBController.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -31,20 +29,62 @@
       <file leaf-file-name="DnDMenuItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DnDSideMenu_Light.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DnDSideMenu_Light.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="765">
               <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/DBController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DnDSideMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDSideMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SRDLegal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDLegal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SRDHomePage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDHomePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SRDMechanics.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDMechanics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -116,13 +156,11 @@
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDCharacters.js" />
         <option value="$PROJECT_DIR$/data/SRD/Sections/classes.json" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDClasses.js" />
-        <option value="$PROJECT_DIR$/src/Components/DBController.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDCombat.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDEquipment.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDMechanics.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDSpellcasting.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDMonsters.js" />
-        <option value="$PROJECT_DIR$/src/Components/DnDSideMenu/DnDSideMenu.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDNpcs.js" />
         <option value="$PROJECT_DIR$/src/Components/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDPlaying.js" />
@@ -131,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js" />
         <option value="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css" />
         <option value="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css" />
+        <option value="$PROJECT_DIR$/src/Components/DnDSideMenu/DnDSideMenu.js" />
+        <option value="$PROJECT_DIR$/src/Components/DBController.js" />
       </list>
     </option>
   </component>
@@ -145,10 +185,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="527" />
+    <option name="width" value="753" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -178,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,6 +248,21 @@
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
               <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="SRD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,7 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,6 +285,9 @@
     <property name="javascript.nodejs.core.library.configured.version" value="8.6.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/.bin/electron.cmd" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -355,7 +413,10 @@
       <workItem from="1519621649207" duration="9012000" />
       <workItem from="1520291708124" duration="1053000" />
       <workItem from="1520632303936" duration="870000" />
-      <workItem from="1520893088377" duration="3418000" />
+      <workItem from="1520893088377" duration="3906000" />
+      <workItem from="1521075043632" duration="740000" />
+      <workItem from="1521121726696" duration="1712000" />
+      <workItem from="1522791885309" duration="746000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -504,23 +565,30 @@
       <option name="project" value="LOCAL" />
       <updated>1520894903350</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="just changing a few names">
+      <created>1520912383964</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1520912383964</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184386000" />
+    <option name="totallyTimeSpent" value="188072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
+    <frame x="527" y="0" width="753" height="775" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.15513127" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" weight="0.31643835" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32561728" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.30246913" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.30293664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30354393" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -539,19 +607,19 @@
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.2931596" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25591397" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30430108" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -582,7 +650,8 @@
     <MESSAGE value="ignore me. most of this is gon get beleted" />
     <MESSAGE value="rename dbController DBController" />
     <MESSAGE value="keep menu item highlighted when selected. Messes up some other things. SIGH... guess its redux time" />
-    <option name="LAST_COMMIT_MESSAGE" value="keep menu item highlighted when selected. Messes up some other things. SIGH... guess its redux time" />
+    <MESSAGE value="just changing a few names" />
+    <option name="LAST_COMMIT_MESSAGE" value="just changing a few names" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -621,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,9 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,25 +765,11 @@
     <entry file="file://$PROJECT_DIR$/node_modules/object-resolve-path/path.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/object-resolve-path/object-resolve-path.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/pouchdb/lib/index-browser.es.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDLegal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/isobject/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/regenerator-runtime/runtime.js" />
     <entry file="file://$PROJECT_DIR$/src/Stylesheets/Pages/SRDSectionPage.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSectionPage.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDHomePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheets/Pages/SRDSpellcasting.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -793,16 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDMechanics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSpellcasting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -814,16 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDSideMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -831,9 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -858,10 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
-          <folding>
-            <element signature="e#432#478#0" expanded="true" />
-            <element signature="e#630#680#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -869,9 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,34 +898,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/DBController.js">
+    <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDMenuItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Dark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="585">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDSideMenu_Light.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="765">
           <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/DnDSideMenu/DnDSideMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDLegal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDHomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDMechanics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/DBController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>

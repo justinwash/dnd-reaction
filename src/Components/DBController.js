@@ -28,6 +28,7 @@ class DBController {
         await this.checkSRDSection('playing');
         await this.checkSRDSection('races');
         await this.checkSRDSection('spellcasting');
+        await this.checkSRDSection('legal info');
     }
 
     async checkSRDSection(section) {
@@ -72,10 +73,12 @@ class DBController {
 
     // JWASH THIS IS AWFUL FIX IT
     getAllSectionContent(obj) {
+        var keys = Object.keys(obj);
         var contentJSX = Object.values(obj).map(function (groupItem, key) {
+
             if (!isObject(groupItem)) {
                 return (<p>
-                    <div> {groupItem.toString()} </div>
+                    <div id="SRDContentLvl1"> {groupItem.toString()} </div>
                 </p>);
             }
             else {
@@ -83,7 +86,10 @@ class DBController {
                     Object.values(groupItem).map(function (item) {
                         if (!isObject(item)) {
                             return (<p>
-                                <div> {item.toString()} </div>
+                                <div id="SRDContentBox">
+                                    {Object.keys(obj)}
+                                    <div id="SRDContentLvl2"> {item.toString()} </div>
+                                </div>
                             </p>);
                         }
                         else {
@@ -91,14 +97,14 @@ class DBController {
                                 Object.values(item).map(function (subitem) {
                                     if (!isObject(subitem)) {
                                         return (<p>
-                                            <div> {subitem.toString()} </div>
+                                            <div id="SRDContentLvl3"> {subitem.toString()} </div>
                                         </p>);
                                     }
                                     else {
                                         return (
                                             Object.values(subitem).map(function (subsubitem) {
                                                 return (<p>
-                                                    <div> {subsubitem.name} </div>
+                                                    <div id="SRDContentLvl4"> {subsubitem.name} </div>
                                                 </p>);
                                             })
                                         )
