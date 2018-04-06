@@ -77,7 +77,7 @@ class DBController {
         var contentJSX = Object.values(obj).map(function (groupItem, key) {
 
             if (!isObject(groupItem)) {
-                return (<p>
+                return (<p id="SRDTitleBox">
                     <div id="SRDContentLvl1"> {groupItem.toString()} </div>
                 </p>);
             }

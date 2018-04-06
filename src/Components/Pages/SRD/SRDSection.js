@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
+import Inspector from 'react-json-inspector';
 import DBController from '../../DBController.js';
 import '../../../Stylesheets/Pages/SRDSection.css';
+import '../../../Stylesheets/Pages/json-inspector.css';
 
 const db = new DBController();
 
@@ -20,7 +22,7 @@ class SRDSection extends Component {
 
     async getSection(section) {
         var sectionObject = await db.retrieveSRDSection(section);
-        this.setState({content: this.renderSection(sectionObject, section)});
+        this.setState({content: sectionObject});
     }
 
     renderSection(object, section) {
@@ -33,9 +35,11 @@ class SRDSection extends Component {
 
     render() {
         return (
-            <div id="SRDPageBody">
-                {this.state.content}
-            </div>
+            <Inspector data={this.state.content}
+                       isExpanded={(keypath, query) => false}
+                //onClick={console.log.bind(console)}
+                //interactiveLabel={InteractiveSelection}
+            />
         )
     }
 

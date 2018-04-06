@@ -1,0 +1,18 @@
+#SpellPageTitle {
+    padding-top: 5%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#SpellPageBody {
+    padding: 5%;
+    font-size: small;
+    text-align: left;
+}
+
+#SpellPageIntro {
+    padding: 5%;
+    font-size: small;
+    text-align: justify;
+}
+
