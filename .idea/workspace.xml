@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ba3d93-3b74-473c-973c-9709066213fd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/highlighter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/leaf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/lens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/noop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/search-bar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/uid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,38 +28,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SRDSection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaf.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.3392857">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="63" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="417">
+                  <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,9 +79,11 @@
       <find>&amp;quot;</find>
       <find>undefined</find>
       <find>&quot;content&quot;: [</find>
+      <find>json-inspector__</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
+      <replace>srd-parser-</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -79,9 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/SRD/Sections/monsters.json" />
-        <option value="$PROJECT_DIR$/data/SRD/Sections/conditions.json" />
-        <option value="$PROJECT_DIR$/data/SRD/Sections/gods.json" />
         <option value="$PROJECT_DIR$/data/SRD/Sections/planes.json" />
         <option value="$PROJECT_DIR$/data/SRD/Sections/creatures.json" />
         <option value="$PROJECT_DIR$/data/SRD/Sections/npcs.json" />
@@ -130,6 +145,9 @@
         <option value="$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js" />
         <option value="$PROJECT_DIR$/data/SRD/Sections/spellcasting.json" />
         <option value="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" />
+        <option value="$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css" />
+        <option value="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx.js" />
+        <option value="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" />
       </list>
     </option>
   </component>
@@ -151,7 +169,8 @@
       <path value="$PROJECT_DIR$/src/Components/react-json-inspector/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="641" />
     <option name="width" value="639" />
     <option name="height" value="774" />
   </component>
@@ -225,7 +244,7 @@
               <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="react-json-inspector" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
@@ -233,7 +252,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="react-json-inspector" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="srd-parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
@@ -274,17 +299,19 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/quanglam2807/webcatalog.git" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/srd-parser" />
+      <recent name="$PROJECT_DIR$/src/Components/srd-json-parser" />
+      <recent name="$PROJECT_DIR$/src/Components" />
+      <recent name="D:\Projects\GitHub\DnDReaction\src\Stylesheets\Pages" />
+      <recent name="C:\Projects\GitHub\dndreaction\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\GitHub\DnDReaction\src\Components\Pages\SRD" />
       <recent name="D:\Projects\GitHub\DnDReaction\src\Stylesheets\App" />
       <recent name="D:\Projects\GitHub\DnDReaction\src\Stylesheets\TitleBar" />
       <recent name="D:\Projects\GitHub\DnDReaction\src" />
       <recent name="D:\Projects\GitHub\DnDReaction\src\Images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components" />
-      <recent name="D:\Projects\GitHub\DnDReaction\src\Stylesheets\Pages" />
-      <recent name="C:\Projects\GitHub\dndreaction\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,7 +427,8 @@
       <workItem from="1522859322055" duration="194000" />
       <workItem from="1522859944842" duration="64000" />
       <workItem from="1523045256572" duration="737000" />
-      <workItem from="1523071574226" duration="9198000" />
+      <workItem from="1523071574226" duration="9261000" />
+      <workItem from="1523141085810" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -570,26 +598,32 @@
       <option name="project" value="LOCAL" />
       <updated>1523075767879</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="styling. lots of refactoring to do">
+      <created>1523085027239</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1523085027239</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199735000" />
+    <option name="totallyTimeSpent" value="202183000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
+    <frame x="641" y="0" width="639" height="774" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" weight="0.31006494" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" weight="0.375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3271605" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32561728" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.30246913" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30354393" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30293664" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25502318" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,25 +633,26 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3271605" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.2931596" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25591397" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30430108" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -651,7 +686,8 @@
     <MESSAGE value="just changing a few names" />
     <MESSAGE value="fixed issue displaying legal info page" />
     <MESSAGE value="more srd work" />
-    <option name="LAST_COMMIT_MESSAGE" value="more srd work" />
+    <MESSAGE value="styling. lots of refactoring to do" />
+    <option name="LAST_COMMIT_MESSAGE" value="styling. lots of refactoring to do" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -686,13 +722,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Stylesheets/App/App_Dark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/running.json" />
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/playing.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -892,9 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/uid.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-json-inspector/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-467" />
@@ -917,12 +943,6 @@
         <state relative-caret-position="-108" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-empty.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-primitive.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/spellcasting.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -930,17 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -950,7 +963,37 @@
     <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/CampNotes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/uid.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
