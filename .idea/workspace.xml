@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ba3d93-3b74-473c-973c-9709066213fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/example/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/example/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/example/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/example/interactive-selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/filterer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/highlighter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-empty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-primitive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/lens.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/noop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/search-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/uid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/node_modules/object-assign/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/node_modules/object-assign/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/node_modules/object-assign/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/test/json-inspector-spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDMainView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDMainView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,20 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaf.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="leaf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2085">
-              <caret line="139" column="58" lean-forward="true" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
+            <state relative-caret-position="150">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="108" column="32" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+              <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -89,6 +62,7 @@
     <findStrings>
       <find>&amp;quot;</find>
       <find>undefined</find>
+      <find>&quot;content&quot;: [</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -128,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Stylesheets/Pages/SRDHomePage.css" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDHomePage.js" />
-        <option value="$PROJECT_DIR$/data/SRD/Sections/spellcasting.json" />
         <option value="$PROJECT_DIR$/src/Stylesheets/Pages/SRDSpellcasting.css" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDLegal.js" />
         <option value="$PROJECT_DIR$/src/Stylesheets/Pages/SRDSectionPage.css" />
@@ -154,8 +127,9 @@
         <option value="$PROJECT_DIR$/src/Stylesheets/DnDBox/DnDMainView.css" />
         <option value="$PROJECT_DIR$/node_modules/react-json-inspector/json-inspector.js" />
         <option value="$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js" />
-        <option value="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" />
         <option value="$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js" />
+        <option value="$PROJECT_DIR$/data/SRD/Sections/spellcasting.json" />
+        <option value="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" />
       </list>
     </option>
   </component>
@@ -178,7 +152,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="892" />
+    <option name="width" value="639" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -234,17 +208,6 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="SRD" type="462c0819:PsiDirectoryNode" />
               <item name="Sections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react-json-inspector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
@@ -437,7 +400,7 @@
       <workItem from="1522859322055" duration="194000" />
       <workItem from="1522859944842" duration="64000" />
       <workItem from="1523045256572" duration="737000" />
-      <workItem from="1523071574226" duration="3871000" />
+      <workItem from="1523071574226" duration="9198000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -600,27 +563,35 @@
       <option name="project" value="LOCAL" />
       <updated>1522792877961</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="more srd work">
+      <created>1523075767878</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1523075767879</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194408000" />
+    <option name="totallyTimeSpent" value="199735000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="892" height="774" extended-state="4" />
+    <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.21979287" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" weight="0.31006494" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3271605" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32561728" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" visible="true" weight="0.30293664" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.30246913" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30354393" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25462964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25502318" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -628,7 +599,6 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -680,7 +650,8 @@
     <MESSAGE value="keep menu item highlighted when selected. Messes up some other things. SIGH... guess its redux time" />
     <MESSAGE value="just changing a few names" />
     <MESSAGE value="fixed issue displaying legal info page" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue displaying legal info page" />
+    <MESSAGE value="more srd work" />
+    <option name="LAST_COMMIT_MESSAGE" value="more srd work" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -755,13 +726,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDRaces.js" />
-    <entry file="file://$PROJECT_DIR$/data/SRD/Sections/spellcasting.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/classes.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="970">
@@ -959,6 +923,20 @@
     <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-primitive.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/SRD/Sections/spellcasting.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -971,15 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="58" lean-forward="true" selection-start-line="139" selection-start-column="58" selection-end-line="139" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="108" column="32" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
         </state>
       </provider>
     </entry>

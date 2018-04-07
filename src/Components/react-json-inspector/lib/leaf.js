@@ -61,14 +61,14 @@ var Leaf = createReactClass({
                 return h('span', {className: 'json-inspector__value json-inspector__value_helper'},
                     '{} ' + items(Object.keys(data).length));
             default:
-                return h('span', {className: 'json-inspector__value json-inspector__value_' + t.toLowerCase()},
+                return h('div', {className: 'json-inspector__value json-inspector__value_' + t.toLowerCase()},
                     this.format(String(data)),
                     this.renderInteractiveLabel(data, false));
         }
     },
     renderChildren: function () {
         var p = this.props;
-        var childPrefix = this._rootPath();
+        var childPrefix = "srd-child";
         var data = this.data();
 
         if (this.state.expanded && !isPrimitive(data)) {
@@ -146,10 +146,17 @@ var Leaf = createReactClass({
         return this.state.original || this.props.data;
     },
     format: function (string) {
-        return h(Highlighter, {
-            string: string,
-            highlight: this.props.query
-        });
+        if (string.toString().length <= 2 || string == "content" ||
+            string == "_id" || string == "_rev") {
+        }
+        else if (string == "content") {
+        }
+        else {
+            return h(Highlighter, {
+                string: string,
+                highlight: this.props.query
+            });
+        }
     },
     getClassName: function () {
         var cn = 'json-inspector__leaf';
