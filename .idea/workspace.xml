@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ba3d93-3b74-473c-973c-9709066213fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/highlighter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-empty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-primitive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/leaf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/lens.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/noop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/search-bar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/uid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,14 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3392857">
+    <splitter split-orientation="horizontal" split-proportion="0.47334924">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+                <state relative-caret-position="15">
+                  <caret line="1" selection-start-line="1" selection-end-line="12" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -42,11 +32,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+          <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -70,10 +60,12 @@
       <find>undefined</find>
       <find>&quot;content&quot;: [</find>
       <find>json-inspector__</find>
+      <find>= require</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
       <replace>srd-parser-</replace>
+      <replace>from</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -247,6 +239,13 @@
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
               <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="srd-parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,6 +295,119 @@
       <recent name="D:\Projects\GitHub\DnDReaction\src" />
       <recent name="D:\Projects\GitHub\DnDReaction\src\Images" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package-lock.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/Stylesheets/Pages/SRDSection.css</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -412,7 +524,8 @@
       <workItem from="1523045256572" duration="737000" />
       <workItem from="1523071574226" duration="9261000" />
       <workItem from="1523141085810" duration="2385000" />
-      <workItem from="1523147865909" duration="129000" />
+      <workItem from="1523147865909" duration="248000" />
+      <workItem from="1523148739072" duration="823000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -589,11 +702,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523085027239</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="something broke git">
+      <created>1523148011053</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1523148011053</updated>
+    </task>
+    <task id="LOCAL-00027" summary="git fixed">
+      <created>1523148101868</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1523148101868</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202312000" />
+    <option name="totallyTimeSpent" value="203254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
@@ -604,7 +731,7 @@
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32561728" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.30246913" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" visible="true" weight="0.30246913" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30293664" />
@@ -624,19 +751,19 @@
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.2931596" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25591397" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30430108" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -671,7 +798,9 @@
     <MESSAGE value="fixed issue displaying legal info page" />
     <MESSAGE value="more srd work" />
     <MESSAGE value="styling. lots of refactoring to do" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling. lots of refactoring to do" />
+    <MESSAGE value="something broke git" />
+    <MESSAGE value="git fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="git fixed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -717,9 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,20 +1092,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css" />
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
