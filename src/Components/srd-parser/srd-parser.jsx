@@ -3,6 +3,12 @@ import SearchBar from './lib/search-bar';
 import noop from './lib/noop';
 
 class SrdParser extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            query: this.props.query || ''
+        }
+    }
     static propTypes = {
         data: PropTypes.any.isRequired,
         search: PropTypes.oneOfType([
@@ -45,3 +51,5 @@ class SrdParser extends Component {
         verboseShowOriginal: false
     };
 }
+
+export default SrdParser;
