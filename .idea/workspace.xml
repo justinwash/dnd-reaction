@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9ba3d93-3b74-473c-973c-9709066213fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/highlighter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-empty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-primitive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/leaf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/lens.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/noop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/search-bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/lib/uid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/highlighter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-empty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/is-primitive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/leaf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/lens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/noop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/search-bar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/lib/uid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,29 +32,21 @@
           <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="63" selection-end-column="10" />
+                <state relative-caret-position="210">
+                  <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="417">
-                  <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="135">
+                  <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -169,10 +159,10 @@
       <path value="$PROJECT_DIR$/src/Components/react-json-inspector/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="641" />
-    <option name="width" value="639" />
-    <option name="height" value="774" />
+    <option name="width" value="629" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -252,13 +242,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="react-json-inspector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="srd-parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
@@ -429,6 +412,7 @@
       <workItem from="1523045256572" duration="737000" />
       <workItem from="1523071574226" duration="9261000" />
       <workItem from="1523141085810" duration="2385000" />
+      <workItem from="1523147865909" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -609,13 +593,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202183000" />
+    <option name="totallyTimeSpent" value="202312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="641" y="0" width="639" height="774" extended-state="4" />
+    <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" weight="0.375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.19968179" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
@@ -640,19 +624,19 @@
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.13382508" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.2931596" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25591397" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30430108" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32605305" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -722,6 +706,23 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/running.json" />
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/playing.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -954,9 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,33 +965,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Pages/CampNotes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/uid.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+        <state relative-caret-position="268">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
