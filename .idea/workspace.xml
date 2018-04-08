@@ -22,8 +22,8 @@
           <file leaf-file-name="json-inspector.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" selection-start-line="1" selection-end-line="12" selection-end-column="33" />
+                <state relative-caret-position="-60">
+                  <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -35,8 +35,11 @@
           <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+                <state relative-caret-position="238">
+                  <caret line="154" column="58" lean-forward="true" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -525,7 +528,7 @@
       <workItem from="1523071574226" duration="9261000" />
       <workItem from="1523141085810" duration="2385000" />
       <workItem from="1523147865909" duration="248000" />
-      <workItem from="1523148739072" duration="823000" />
+      <workItem from="1523148739072" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -716,17 +719,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523148101868</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="git fixed">
+      <created>1523150616772</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1523150616772</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203254000" />
+    <option name="totallyTimeSpent" value="204549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.19968179" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" weight="0.19968179" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
@@ -775,7 +785,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Update Readme" />
     <MESSAGE value="Disable default menu bar" />
     <MESSAGE value="themes. very important :/" />
@@ -801,9 +812,6 @@
     <MESSAGE value="something broke git" />
     <MESSAGE value="git fixed" />
     <option name="LAST_COMMIT_MESSAGE" value="git fixed" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -846,6 +854,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,15 +1105,18 @@
     <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="-60">
+          <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="238">
+          <caret line="154" column="58" lean-forward="true" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
