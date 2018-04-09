@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Inspector from '../../react-json-inspector';
+import SrdParser from '../../srd-parser/srd-parser';
 import DBController from '../../DBController.js';
 import '../../../Stylesheets/Pages/SRDSection.css';
 import '../../../Stylesheets/Pages/json-inspector.css';
@@ -35,7 +35,7 @@ class SRDSection extends Component {
 
     render() {
         return (
-            <Inspector data={this.state.content}
+            <SrdParser data={this.state.content}
                        isExpanded={(keypath, query) => true}
                 //onClick={console.log.bind(console)}
                 //interactiveLabel={InteractiveSelection}

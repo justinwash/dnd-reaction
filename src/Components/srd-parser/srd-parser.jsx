@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import debounce from 'debounce';
 import Leaf from './lib/leaf';
 import SearchBar from './lib/search-bar';
