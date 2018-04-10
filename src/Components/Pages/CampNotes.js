@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
+import DnDTitle from "../DnDTitle";
 
 class CampNotes extends Component {
     render() {
         return (
-            <div>
-                CAMPAIGN NOTES???
-            </div>
+            <DnDTitle Title={"Campaign Notes"}/>
         )
     }
 }

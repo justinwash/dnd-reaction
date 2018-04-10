@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
+import DnDTitle from "../DnDTitle";
 
 class Encounters extends Component {
     render() {
         return (
-            <div>
-                PROBABLY GOBLINS
-            </div>
+            <DnDTitle Title={"Encounters"}/>
         )
     }
 }
