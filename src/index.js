@@ -2,10 +2,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
+import {render} from 'react-dom'
+import {createStore} from 'redux'
+import {Provider} from 'react-redux'
 import registerServiceWorker from './registerServiceWorker';
 import './App.css'
 import App from './Components/App'
 import DBController from './Components/DBController.js';
+
+const store = createStore(()=>{})
 
 // Connect to and test database
 const db = new DBController();
@@ -17,9 +22,12 @@ dnDB.find({}, function (err, docs) {
 }); */
 
 // Render App
-ReactDOM.render((
+render(
+    <Provider store = {store}>
         <BrowserRouter>
             <App/>
-        </BrowserRouter>),
-    document.getElementById('root'));
+        </BrowserRouter>
+    </Provider>,
+    document.getElementById('root')
+);
 registerServiceWorker();
