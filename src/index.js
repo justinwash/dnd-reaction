@@ -10,7 +10,7 @@ import './App.css'
 import App from './Components/App'
 import DBController from './Components/DBController.js';
 
-const store = createStore(()=>{})
+const store = createStore(() => {})
 
 // Connect to and test database
 const db = new DBController();
