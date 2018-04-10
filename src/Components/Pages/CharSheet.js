@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
+import DnDTitle from '../DnDTitle';
 
 class CharSheet extends Component {
     render() {
         return (
-            <div id="CharSheet">
-                THIS IS A CHARACTER SHEET PAGE?
-            </div>
+            <DnDTitle Title={"Character Sheet"}/>
         )
     }
 }
