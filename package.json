@@ -23,11 +23,13 @@
     "react-json": "^0.2.1",
     "react-json-inspector": "^7.1.1",
     "react-json-to-html": "0.0.1",
+    "react-redux": "^5.0.7",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0",
     "react-sidebar": "^2.3.2",
     "react-sidemenu": "0.0.13",
+    "redux": "^3.5.2",
     "rxdb": "^7.3.3",
     "rxjs": "^5.5.6"
   },
