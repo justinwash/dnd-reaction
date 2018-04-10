@@ -50,3 +50,10 @@
     display: flex;
     flex-direction: column;
 }
+
+#MainMenuItem-active.dark {
+    background-color: #303030;
+    border-left: 6px;
+    border-left-style: solid;
+    border-left-color: #222225;
+}
