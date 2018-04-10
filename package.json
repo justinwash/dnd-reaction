@@ -13,6 +13,7 @@
     "nedb": "^1.8.0",
     "nedb-promises": "^1.1.2",
     "object-resolve-path": "^1.1.1",
+    "office-ui-fabric-react": "^5.79.1",
     "pouchdb": "^6.4.3",
     "pouchdb-adapter-http": "^6.4.3",
     "pouchdb-adapter-idb": "^6.4.3",
