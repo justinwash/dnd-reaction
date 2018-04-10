@@ -3,29 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9ba3d93-3b74-473c-973c-9709066213fd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/example/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/example/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/example/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/example/interactive-selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/filterer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/highlighter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-empty.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/is-primitive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/lens.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/noop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/search-bar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/lib/uid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/react-json-inspector/test/json-inspector-spec.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,8 +20,8 @@
       <file leaf-file-name="SRDSection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="-62">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -52,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="srd-parser.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -64,47 +41,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filterer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="is-empty.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/is-empty.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="is-primitive.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/is-primitive.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="leaf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/leaf.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="lens.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/lens.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="noop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/noop.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="search-bar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/search-bar.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="highlighter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/highlighter.js">
+      <file leaf-file-name="equipment.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/SRD/Sections/equipment.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -264,13 +202,6 @@
               <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="SRD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dndreaction" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="SRD" type="462c0819:PsiDirectoryNode" />
-              <item name="Sections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dndreaction" type="b2602c69:ProjectViewProjectNode" />
@@ -470,7 +401,8 @@
       <workItem from="1523141085810" duration="2385000" />
       <workItem from="1523147865909" duration="248000" />
       <workItem from="1523148739072" duration="2178000" />
-      <workItem from="1523237919994" duration="1491000" />
+      <workItem from="1523237919994" duration="1581000" />
+      <workItem from="1523323620189" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="Update Readme">
       <created>1517363926208</created>
@@ -675,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523151894668</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="srd-parser converted to ES6. RIP json-inspector">
+      <created>1523239708306</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1523239708306</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206100000" />
+    <option name="totallyTimeSpent" value="206821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1280" height="775" extended-state="6" />
@@ -695,7 +634,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30293664" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25462964" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25462964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -711,20 +650,20 @@
       <window_info id="npm" order="2" sideWeight="0.509901" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.19968179" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32561728" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49682036" weight="0.30246913" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3271605" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25462964" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.30293664" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50317967" side_tool="true" weight="0.30153847" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32561728" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3271605" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32647058" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.490099" visible="true" weight="0.19968179" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,7 +675,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update Readme" />
     <MESSAGE value="Disable default menu bar" />
     <MESSAGE value="themes. very important :/" />
     <MESSAGE value="Started on a from-scratch navigation menu. Re-inventing THAT wheel? you betcha." />
@@ -761,7 +699,8 @@
     <MESSAGE value="something broke git" />
     <MESSAGE value="git fixed" />
     <MESSAGE value="srd-parser refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="srd-parser refactoring" />
+    <MESSAGE value="srd-parser converted to ES6. RIP json-inspector" />
+    <option name="LAST_COMMIT_MESSAGE" value="srd-parser converted to ES6. RIP json-inspector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,6 +732,33 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/object-resolve-path/object-resolve-path.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/pouchdb/lib/index-browser.es.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/isobject/index.js" />
@@ -841,11 +807,6 @@
         <state relative-caret-position="170">
           <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/SRD/Sections/equipment.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16090" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDEquipment.js">
@@ -986,16 +947,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/filterer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-904" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/highlighter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/filterer.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/highlighter.js" />
     <entry file="file://$PROJECT_DIR$/data/SRD/Sections/spellcasting.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1003,66 +956,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/lib/leaf.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css" />
+    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        <state relative-caret-position="-165">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-json-parser/srd-json-parser.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/Pages/SRD/SRDSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="-62">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/react-json-inspector/json-inspector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/SRD/Sections/equipment.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/srd-parser.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/is-empty.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/is-primitive.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/leaf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/lens.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/noop.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/search-bar.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/highlighter.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/srd-parser/lib/filterer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>

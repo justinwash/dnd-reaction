@@ -16,7 +16,9 @@ class SrdParser extends Component {
         this.state = {
             query: this.props.query || ''
         }
+        this.search = this.search.bind(this);
     }
+
     static propTypes = {
         data: PropTypes.any.isRequired,
         search: PropTypes.oneOfType([
