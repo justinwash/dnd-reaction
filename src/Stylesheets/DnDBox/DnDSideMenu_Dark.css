@@ -11,7 +11,11 @@
     line-height: 48px;
 }
 
-#MainMenuItem.showchildren {
+#MainMenuItem-active.dark {
+    text-align: left;
+    text-indent: 20px;
+    vertical-align: middle;
+    line-height: 48px;
     background-color: #303030;
     border-left: 6px;
     border-left-style: solid;
@@ -19,6 +23,11 @@
 }
 
 #MainMenuItem.dark a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#MainMenuItem-active.dark a {
     color: inherit;
     text-decoration: inherit;
 }
@@ -49,11 +58,4 @@
 #ChildMenuItem_dark.showchildren {
     display: flex;
     flex-direction: column;
-}
-
-#MainMenuItem-active.dark {
-    background-color: #303030;
-    border-left: 6px;
-    border-left-style: solid;
-    border-left-color: #222225;
 }

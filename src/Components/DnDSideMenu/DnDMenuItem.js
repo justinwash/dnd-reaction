@@ -7,14 +7,15 @@ class DnDMenuItem extends Component {
         super(props);
         this.state = {
             childVisibility: "hidechildren",
-            activeId: "MainMenuItem"
+            activeState: "MainMenuItem"
         };
         this.CreateChildren = this.CreateChildren.bind(this);
         this.ClickHandler = this.ClickHandler.bind(this);
         this.ToggleChildren = this.ToggleChildren.bind(this);
+        this.Activate = this.Activate.bind(this);
     }
 
-    CreateChildren(props) {
+    CreateChildren() {
         var children = this.props.children;
         var theme = this.props.theme;
         var childMenuItems = children.map((child) =>
@@ -32,34 +33,38 @@ class DnDMenuItem extends Component {
     }
 
     ToggleChildren() {
+        if (this.props.children == []) {
+            return;
+        }
         if (this.state.childVisibility === "hidechildren") {
             this.setState({childVisibility: "showchildren"});
         }
         if (this.state.childVisibility === "showchildren") {
             this.setState({childVisibility: "hidechildren"});
         }
-
     }
 
     ClickHandler() {
-        if (this.props.children !== "") {
-            this.ToggleChildren();
-            // OR open/close child drawer
-        }
-        this.props.activeHandler(this.props.id);
-        if(this.props.buttonActive === this.props.id) {
-            this.setState({ activeId: "MainMenuItem-active" });
-        }
-        else this.setState({ activeId: "MainMenuItem"});
+        this.ToggleChildren();
+        this.Activate();
     }
 
+    Activate() {
+        this.props.activator(this.props.id);
+    }
 
     render() {
+        var highlightId = "MainMenuItem";
+        if(this.props.activeMenuItem === this.props.id) {
+            highlightId = "MainMenuItem-active";
+        }
+        else highlightId = "MainMenuItem";
+
         return (
-            <div id={this.state.activeId} className={[this.props.theme,
+            <div id={highlightId} className={[this.props.theme,
                 this.state.childVisibility].join(' ')}>
                 <Link to={this.props.target}>
-                    <div id="ClickBox" onMouseDown={this.props.activeHandler(this.props.id)}>
+                    <div id="ClickBox" onMouseDown={this.ClickHandler}>
                         {this.props.displayText}
                     </div>
                 </Link>
