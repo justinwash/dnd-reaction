@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import DnDTitle from '../DnDTitle';
 
-class CharSheet extends Component {
+class Characters extends Component {
     render() {
         return (
-            <DnDTitle Title={"Character Sheet"}/>
+            <DnDTitle Title={"My Characters"}/>
         )
     }
 }
 
-export default CharSheet;
+export default Characters;

@@ -35,7 +35,7 @@ class DnDSideMenu extends Component {
                              id={menuItemTypes.HOME}
                              activeMenuItem={this.state.activeMenuItem}/>
                 <DnDMenuItem displayText={"Character Sheets"}
-                             target={"/charsheet"}
+                             target={"/characters"}
                              children={[]}
                              theme={this.props.theme}
                              activator={this.activeHandler}

@@ -11,7 +11,7 @@ import '../Stylesheets/DnDBox/DnDBox.css';
 import '../Stylesheets/DnDBox/DnDMainView.css'
 // import pages
 import DnDHomePage from './Pages/DnDHomePage';
-import CharSheet from './Pages/CharSheet';
+import Characters from './Pages/Characters';
 import CampNotes from './Pages/CampNotes';
 import Encounters from './Pages/Encounters';
 // import SRD Pages
@@ -56,7 +56,8 @@ class App extends Component {
                     <div id="DnDMainView" className={this.state.theme}>
                         <Switch>
                             <Route exact path='/' component={DnDHomePage}/>
-                            <Route path='/charsheet' component={CharSheet}/>
+                            <Route path='/characters' component={Characters}/>
+                            <Route path='/charsheettest' component={CharacterSheet}
                             <Route path='/campnotes' component={CampNotes}/>
                             <Route path='/encounters' component={Encounters}/>
                             <Route path='/srd' component={SRDHomePage}/>
