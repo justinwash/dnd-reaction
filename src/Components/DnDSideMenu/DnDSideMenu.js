@@ -2,19 +2,20 @@ import React, {Component} from 'react';
 import DnDMenuItem from './DnDMenuItem';
 import '../../Stylesheets/DnDBox/DnDSideMenu_Dark.css';
 import '../../Stylesheets/DnDBox/DnDSideMenu_Light.css';
+
 const menuItemTypes = {
     HOME: 0,
     CHARSHEETS: 1,
     CAMPNOTES: 2,
     SRD: 3,
     ENCOUNTERS: 4
-}
+};
 
 class DnDSideMenu extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeMenuItem: 1
+            activeMenuItem: 0
         };
         this.activeHandler = this.activeHandler.bind(this);
     }
@@ -35,7 +36,7 @@ class DnDSideMenu extends Component {
                              id={menuItemTypes.HOME}
                              activeMenuItem={this.state.activeMenuItem}/>
                 <DnDMenuItem displayText={"Character Sheets"}
-                             target={"/characters"}
+                             target={"/mycharacters"}
                              children={[]}
                              theme={this.props.theme}
                              activator={this.activeHandler}

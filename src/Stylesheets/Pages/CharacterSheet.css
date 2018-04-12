@@ -1,0 +1,43 @@
+.ms-Persona {
+    padding-left: 20px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#character-ability-row {
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#character-ability-row .ms-TextField {
+    padding-left: 20px;
+}
+
+#proficiency-bonus {
+    padding-left: 20px;
+}
+
+#character-vitals-row {
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#character-vitals-row .ms-TextField {
+    padding-left: 20px;
+}
+
+#character-combat-row {
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#character-combat-row .ms-TextField {
+    padding-left: 20px;
+}
+

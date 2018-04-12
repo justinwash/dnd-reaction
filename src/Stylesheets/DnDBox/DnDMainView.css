@@ -4,7 +4,8 @@
 }
 
 #dnd-title {
-    padding-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: x-large;
     font-weight: bold;
 }

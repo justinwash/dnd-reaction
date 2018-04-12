@@ -11,7 +11,8 @@ import '../Stylesheets/DnDBox/DnDBox.css';
 import '../Stylesheets/DnDBox/DnDMainView.css'
 // import pages
 import DnDHomePage from './Pages/DnDHomePage';
-import Characters from './Pages/Characters';
+import MyCharacters from './Pages/MyCharacters';
+import CharacterSheet from './Pages/CharacterSheet/CharacterSheet';
 import CampNotes from './Pages/CampNotes';
 import Encounters from './Pages/Encounters';
 // import SRD Pages
@@ -32,7 +33,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            theme: 'dark',
+            theme: 'light',
             currentPage: 'DnDHomePage'
         };
         this.themeSwitcher = this.themeSwitcher.bind(this);
@@ -56,8 +57,9 @@ class App extends Component {
                     <div id="DnDMainView" className={this.state.theme}>
                         <Switch>
                             <Route exact path='/' component={DnDHomePage}/>
-                            <Route path='/characters' component={Characters}/>
-                            <Route path='/charsheettest' component={CharacterSheet}
+                            <Route exact path='/mycharacters' component={MyCharacters}/>
+                            <Route path='/charsheettest' render={(routeProps) => (
+                                <CharacterSheet {...routeProps} theme={this.state.theme} />)} />
                             <Route path='/campnotes' component={CampNotes}/>
                             <Route path='/encounters' component={Encounters}/>
                             <Route path='/srd' component={SRDHomePage}/>
