@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import CharPersona from './CharPersona';
+import CharStory from './CharStory';
 import AbilityTable from './AbilityTable';
 import VitalsTable from './VitalsTable';
 import CombatTable from './CombatTable';
@@ -13,6 +14,10 @@ const exampleCharacter = {
     class: 'Monk',
     level: '2',
     xp: '350',
+    alignment: 'Neutral Good',
+    backStory: 'Has a backstory, and I\'m sure it\'s extremely exciting and dramatic, ' +
+    'but this is only here to test this component, so it doesn\'t really matter what ' +
+    'it would have been.',
     ac: '13',
     maxHP: '16',
     tempHP: '16',
@@ -40,6 +45,7 @@ class CharacterSheet extends Component{
             <div id="charactersheet">
                 <CharPersona character={exampleCharacter}
                              theme={this.props.theme}/>
+                <CharStory character={exampleCharacter}/>
                 <AbilityTable character={exampleCharacter}/>
                 <VitalsTable character={exampleCharacter}/>
                 <CombatTable character={exampleCharacter}/>
