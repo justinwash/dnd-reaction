@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import {Fabric} from 'office-ui-fabric-react';
 import {MessageBar, MessageBarType} from 'office-ui-fabric-react';
-import { MessageBarButton } from 'office-ui-fabric-react/lib/Button';
-import { Link } from 'office-ui-fabric-react/lib/Link';
-import { Label } from 'office-ui-fabric-react/lib/Label';
 import DnDTitle from '../../DnDTitle';
 
 class CharStory extends Component {

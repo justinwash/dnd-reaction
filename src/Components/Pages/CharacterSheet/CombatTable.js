@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CombatRow from './CombatRow';
 import DnDTitle from '../../DnDTitle';
+import {MessageBar} from 'office-ui-fabric-react';
 
 class CombatTable extends Component {
     constructor(props) {
@@ -14,6 +15,12 @@ class CombatTable extends Component {
         return (
             <div id="character-combat-table">
                 <DnDTitle Title="Combat" />
+                <MessageBar
+                    isMultiline={ true }
+                    onDismiss={ console.log('test') }
+                    truncated={ true }
+                    overflowButtonAriaLabel='Overflow'>
+
                 <CombatRow name="Hit Dice"
                            value={c.hitDice} />
                 <CombatRow name="Initiative"
@@ -22,6 +29,7 @@ class CombatTable extends Component {
                            value={c.speed + " feet"} />
                 <CombatRow name="Vision"
                            value={c.vision + " feet"} />
+                </MessageBar>
             </div>
         )
     }
