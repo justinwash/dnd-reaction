@@ -8,9 +8,9 @@ import CombatTable from './CombatTable';
 import '../../../Stylesheets/Pages/CharacterSheet.css';
 
 const exampleCharacter = {
-    initials: '420',
-    name: 'Forr Schwenty',
-    race: 'High AF Lizardman',
+    initials: 'AG',
+    name: 'Aeron Gwinne',
+    race: 'Snakeperson',
     class: 'Monk',
     level: '2',
     xp: '350',
